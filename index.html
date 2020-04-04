@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Bibi Branco – Designer</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Bibiana Branco Designer">
+    <meta name="keywords" content="UI,UX,Logo Design">
+    <meta name="author" content="Bibiana Branco">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/tti6nwe.css">
+  </head>
+  <body>
+
+<!-- SMOOTH SCROLL SCRIPT -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+    <!-- LOADER -->
+
+<div class="loader-wrapper">
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player
+        src="https://assets1.lottiefiles.com/private_files/lf30_Y1zXkg.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"    autoplay >
+    </lottie-player>
+
+</div>
+
+<script>
+
+$(window).on("load",function(){
+  $(".loader-wrapper").delay(3000).fadeOut("slow");
+});
+
+</script>
+
+  <!-- NAVBAR -->
+    <div class="bg-blue">
+      <div class="container">
+        
+        <div class="menu w-100 d-flex justify-content-between">
+
+          <div class="logo"><a href="#">  <img src="img/logo.svg"></a>
+          </div>
+          <div class="links d-flex align-items-center">
+            <a href="#portfolio">portfolio</a>
+            <a href="#about">about me</a>
+            <a href="#contact">contact</a>
+          </div>
+        </div>
+      </div>
+        
+      <!-- BANNER  -->
+
+      <div class="container">
+        <div class="banner-content  d-flex align-items-center">  
+          <div class="txt">
+            <h1> some sentence about design etc. </h1>
+
+          </div>
+        </div>
+        <div class="d-flex justify-content-around">
+          <img class="stripe" src="img/barra.svg">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- CONTENT -->
+   <div id="portfolio">
+    <div class="portfolio">
+
+	    <div class="container">
+			<div class="d-flex justify-content-around mx-auto">
+				<h2>portfolio</h2>
+			</div>
+		
+				<div class="container">
+   <div class="row">
+
+      <div class="col-lg-4 col-md-6 col-sm-12 p-0 content-card">
+        <img src="img/img_placeholder.png" class="img-fluid">
+        <div class="overlay">
+          <div class="text">Hello World</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 p-0 content-card">
+        <img src="img/img_placeholder.png" class="img-fluid">
+        <div class="overlay">
+          <div class="text">Hello World</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 p-0 content-card">
+         <img src="img/img_placeholder.png" class="img-fluid">
+         <div class="overlay">
+           <div class="text">Hello World</div>
+         </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 p-0 content-card">
+         <img src="img/img_placeholder.png" class="img-fluid">
+         <div class="overlay">
+           <div class="text">Hello World</div>
+         </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 p-0 content-card">
+         <img src="img/img_placeholder.png" class="img-fluid">
+         <div class="overlay">
+           <div class="text">Hello World</div>
+         </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 p-0 content-card">
+         <img src="img/img_placeholder.png" class="img-fluid">
+         <div class="overlay">
+           <div class="text">Hello World</div>
+         </div>
+      </div>
+      
+   </div>
+</div>
+</div>
+
+		</div>
+
+	</div>
+
+
+  <!-- about me -->
+
+  <div id="about">
+    <div class="about">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-6 col-sm-12">
+
+          <img src="img/bibi.png" width="70%">
+        
+
+           <div class="description">
+       			<h3>	bibiana branco </h3>
+       			<p> designer </p>
+           </div>
+       </div>
+   
+
+       
+        <div class= "col-md-6 col-sm-12">
+
+        	<h2>about me</h2>
+
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+  
+        </div>
+
+      </div>
+    </div>
+ </div>
+
+  <div id="contact">
+    <div class="footer">
+       <div class="container">
+        <div class="row">
+              <div class="col-md-6 col-sm-12">
+
+          <div class="logofooter">
+          <img src="img/logo_footer.svg" width="70%">
+          </div>
+
+            </div>
+
+                          <div class="col-md-6 col-sm-12">
+
+          <div class="contact">
+            <h2>contact</h2>
+
+            <p>if you wanna start a new project or just say hi, feel free to contact me</p>
+
+          <div class="info">
+            <a href="mailto:brancobibiana@gmail.com">brancobibiana@gmail.com</a> <br>
+            <a href="tel:+5551998463380">+55 51 998.463.380</a>
+
+          </div>
+          </div>
+
+            </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  </body>
+</html>
