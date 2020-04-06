@@ -87,6 +87,7 @@ h2 {
 	font-size: 50px;
   display: inline-block;
   line-height: 0.85;
+  border-bottom: 2px solid #6A98A0;
  }
 
 .portfolio {
@@ -100,11 +101,12 @@ h2 {
 }
 
 .content-card:hover .overlay {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .text {
   color: white;
+  text-align: center;
   font-size: 40px;
   font-weight: 200;
   line-height: 40px;
@@ -117,12 +119,9 @@ h2 {
 
   .about h2 {
   	color: white;
+  	border-bottom: 2px solid white;
 
   }
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 
 .overlay {
   position: absolute;
@@ -209,3 +208,27 @@ color: #6A98A0;
 	border: 2px solid #6A98A0;
 }
 
+
+/*PROJECT*/
+
+.portfolio-content {
+	margin-top: 30px;
+}
+
+.portfolio-content p {
+	color: #6A98A0;
+	font-family: paralucent-text;
+	padding-top: 30px;
+}
+
+.btn {
+	border: 2px solid #6A98A0;
+	border-radius: 0px;
+	color: #6A98A0;
+}
+
+.btn:hover {
+	background-color: #6A98A0;
+	color: white;
+
+}
