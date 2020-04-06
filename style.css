@@ -12,7 +12,7 @@ body {
 
 
 .logo img {
-	/*height: 106px;*/
+	height: 106px;
 }
 
 
@@ -45,7 +45,7 @@ body {
 	
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   div.txt h1 {
     font-size: 50px;
   }
@@ -57,7 +57,18 @@ body {
   div.logofooter {
   	display: none;
   }
+
+
 }
+
+@media screen and (max-width: 600px) {
+
+
+  div.logo img {
+  	height: 60px !important;
+  }
+}
+
 
 .banner-content {
 	padding-top: 70px;
