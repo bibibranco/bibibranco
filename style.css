@@ -50,6 +50,10 @@
 	font-weight: 700;
 }
 
+p {
+  color: white;
+}
+
 #circleeffect {
     width: 823px;
     height: 220px;
@@ -183,7 +187,17 @@ h2 {
 .portfolio {
   padding-top: 30px;
   padding-bottom: 40px;
+  background: #EAEAEA;
 }
+
+.dark-text {
+  color: #353939;
+}
+
+h2.dark-text {
+  border-bottom: 2px solid #353939;
+}
+
 
 .portfolio img {
   padding: 5px;
@@ -228,9 +242,29 @@ h2 {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #6A98A0;
+  background-color: #353939;
 }
 
+.profile-pic img {
+  max-height: 400px;
+}
 
+.contact-box {
+  border: 1px solid white;
+  padding: 5px 10px;
+  color: white;
+}
 
+.bold-contact {
+  font-weight: bolder;
+  width: 60px;
+  text-align: right;
+}
 
+h3 {
+  font-size: 24px;
+}
+
+.bottom-border {
+  border-bottom: 1px solid white;
+}
