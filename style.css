@@ -97,6 +97,10 @@ p {
 
 }
 
+.about-me a {
+  text-decoration: underline;
+  color: white;
+}
 
 .banner-content {
 	padding-top: 70px;
@@ -267,4 +271,31 @@ h3 {
 
 .bottom-border {
   border-bottom: 1px solid white;
+}
+
+.icons {
+  color: white;
+  list-style: none;
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+.icons a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 0px;
+}
+
+.portfolio-content img {
+  max-width:100%;
+  padding-top: 20px;
+
 }

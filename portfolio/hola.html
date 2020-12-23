@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Bibi Branco – Designer</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Aurora Vecci – Bibi Branco">
+    <meta name="keywords" content="UI,UX,Logo Design">
+    <meta name="author" content="Bibiana Branco">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/tti6nwe.css">
+  </head>
+  <body>
+
+<!-- SMOOTH SCROLL SCRIPT -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+
+  <!-- NAVBAR -->
+    <div class="bg-dark">
+      <div class="container">
+        
+        <div class="menu w-100 d-flex justify-content-between">
+
+          <div class="logo"><a href="../index.html">  <img src="../img/logo.svg"></a>
+          </div>
+          <div class="links d-flex align-items-center">
+            <a href="index.html#portfolio">portfolio</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="portfolio-content">
+        <div class="container">
+
+            <h2 class="text-lowercase dark-text mt-5">Hola, mudei!</h2>
+
+            <p class="col-md-5 offset-md-1 dark-text mt-4"> Visual identity developed for an instagram project that shows the life of a well succeeded couple that live in a park.
+ </p>
+
+            <img src="hola/img01.png">
+            <img src="hola/img02.png">
+
+
+
+        
+   <!-- voltar home -->
+<div class="col text-center mt-4">
+   <a class="btn" href="index.html">more projects</a>  
+  </div>
+
+
+  </body>
+</html>
