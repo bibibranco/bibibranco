@@ -8,9 +8,7 @@
 }
 
 .about {
-  min-height: 70vh;
-  display: flex;
-  flex-direction: column;
+  min-height: 60vh;
 }
 
 .logo img {
@@ -255,14 +253,15 @@ h2.dark-text {
   background-color: #353939;
 }
 
-.profile-pic img {
-  max-height: 400px;
+.profile-pic {
+  max-width: 100%;
 }
 
 .contact-box {
   border: 1px solid white;
   padding: 5px 10px;
   color: white;
+  max-width: 70%;
 }
 
 .bold-contact {
